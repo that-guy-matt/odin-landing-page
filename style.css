@@ -20,7 +20,6 @@
 }
 
 body {
-  font-family: var(--font);
   line-height: none;
 }
 
@@ -28,3 +27,86 @@ ol,
 ul {
   list-style: none;
 }
+
+/* ===== BLOCK ===== */
+
+body {
+  font-family: var(--font);
+}
+
+header {
+  background-color: var(--color-primary);
+}
+
+footer {
+  background-color: var(--color-primary);
+}
+
+#info-cards-container h2 {
+  color: var(--text-info);
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-cards-container p {
+  color: var(--text-info);
+}
+
+#quote-container {
+  background-color: var(--text-secondary);
+  color: var(--color-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-hero-main);
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+/* ===== ELEMENT ===== */
+
+.flex-container {
+  display: flex;
+}
+
+button {
+  background-color: #3882f6;
+  color: var(--text-hero-main);
+}
+
+header a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+#hero-container h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+#hero-container p {
+}
+
+#logo {
+  color: var(--text-hero-main);
+  text-decoration: none;
+}
+
+#quote-container blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#cta {
+  background-color: var(--color-secondary);
+}
+
+/* ===== MODIFIER ===== */
