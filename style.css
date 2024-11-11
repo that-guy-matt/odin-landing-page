@@ -53,6 +53,10 @@ footer {
   margin: 0 auto;
 }
 
+.flex-container {
+  display: flex;
+}
+
 #main-nav-container {
   justify-content: space-between;
   padding: 20px 0;
@@ -62,20 +66,36 @@ footer {
   padding: 125px 0;
 }
 
-#info-cards-container h2 {
-  color: var(--text-info);
-  font-size: 36px;
-  font-weight: 900;
+#info-cards-container {
+  margin-top: 50px;
+  text-align: center;
 }
 
-#info-cards-container p {
-  color: var(--text-info);
+#cards {
+  margin: 50px 0 100px 0;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 200px;
+  font-size: 18px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 5px solid var(--color-secondary);
 }
 
 #quote-container {
   background-color: var(--text-secondary);
   color: var(--color-primary);
 }
+
+/* ===== ELEMENT ===== */
 
 h1,
 h2,
@@ -88,12 +108,6 @@ h6 {
 
 p {
   color: var(--text-secondary);
-}
-
-/* ===== ELEMENT ===== */
-
-.flex-container {
-  display: flex;
 }
 
 button {
@@ -138,6 +152,16 @@ header a:hover {
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
+}
+
+#info-cards-container h2 {
+  color: var(--text-info);
+  font-size: 36px;
+  font-weight: 900;
+}
+
+#info-cards-container p {
+  color: var(--text-info);
 }
 
 #quote-container blockquote {
