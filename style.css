@@ -96,6 +96,18 @@ footer {
   padding: 150px 0;
 }
 
+#cta-container {
+  padding: 100px 0;
+}
+
+#cta {
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 50px 100px;
+  background-color: var(--color-secondary);
+  justify-content: space-between;
+}
+
 /* ===== ELEMENT ===== */
 
 h1,
@@ -124,10 +136,6 @@ header a {
   color: var(--text-secondary);
   text-decoration: none;
   font-size: 18px;
-}
-
-header a:hover {
-  color: var(--color-secondary);
 }
 
 .nav-item {
@@ -182,8 +190,23 @@ figcaption {
   font-weight: bold;
 }
 
-#cta {
-  background-color: var(--color-secondary);
+#cta h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#cta button {
+  border: 2px solid var(--text-secondary);
 }
 
 /* ===== MODIFIER ===== */
+
+header a:hover {
+  color: var(--color-secondary);
+}
+
+button:hover {
+  background-color: var(--text-hero-main);
+  color: var(--color-secondary);
+  cursor: pointer;
+}
