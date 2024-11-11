@@ -19,6 +19,12 @@
   display: block;
 }
 
+/* For some reason these were being displayed from the previous display block code */
+title,
+script {
+  display: none;
+}
+
 body {
   line-height: none;
 }
@@ -40,6 +46,16 @@ header {
 
 footer {
   background-color: var(--color-primary);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#main-nav-container {
+  justify-content: space-between;
+  padding: 15px 0;
 }
 
 #info-cards-container h2 {
@@ -86,6 +102,14 @@ header a {
   text-decoration: none;
 }
 
+header a:hover {
+  color: var(--color-secondary);
+}
+
+.nav-item {
+  margin-left: 15px;
+}
+
 #hero-container h1 {
   font-size: 48px;
   font-weight: 900;
@@ -97,6 +121,8 @@ header a {
 #logo {
   color: var(--text-hero-main);
   text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 #quote-container blockquote {
