@@ -49,13 +49,17 @@ footer {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
 #main-nav-container {
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 20px 0;
+}
+
+#hero-container {
+  padding: 125px 0;
 }
 
 #info-cards-container h2 {
@@ -100,6 +104,7 @@ button {
 header a {
   color: var(--text-secondary);
   text-decoration: none;
+  font-size: 18px;
 }
 
 header a:hover {
@@ -107,7 +112,7 @@ header a:hover {
 }
 
 .nav-item {
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
 #hero-container h1 {
@@ -122,7 +127,7 @@ header a:hover {
   color: var(--text-hero-main);
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 #quote-container blockquote {
