@@ -93,6 +93,7 @@ footer {
 #quote-container {
   background-color: var(--text-secondary);
   color: var(--color-primary);
+  padding: 150px 0;
 }
 
 /* ===== ELEMENT ===== */
@@ -164,10 +165,21 @@ header a:hover {
   color: var(--text-info);
 }
 
+#quote-container figure {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 #quote-container blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+}
+
+figcaption {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 #cta {
